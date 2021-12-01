@@ -7,6 +7,11 @@ which also does this for you), but the `StaticAnnotation` does not automatically
 
 https://stackoverflow.com/a/44232904/1271826.
 
+Here you can see that the `DynamicAnnotation` and `PointAnnotationSubclass` will have their changing
+`coordinate` reflected in their respective annotation views, but the `StaticAnnotation` does not:
+
+![Animated annotation views](result.gif)
+
 ---
 
 1 December 2021
